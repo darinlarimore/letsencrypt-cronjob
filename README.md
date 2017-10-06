@@ -1,5 +1,5 @@
 # letsencrypt-cronjob
-Instructions on how to automate renewals for lets encrypt on a digital ocean lamp server
+Instructions on how to automate renewals for lets encrypt on a Digital ocean Ubuntu 16.04 LAMP stack.
 
 ## Step 1
 Set up  the letsencrypt ssl certificate.
