@@ -1,5 +1,6 @@
 # letsencrypt-cronjob
 Instructions on how to automate renewals for Let's encrypt on a Digital ocean Ubuntu 16.04 LAMP stack.
+
 There is some misinformation and out of date guides on this topic that confused me, so I wrote this.
 
 ## Step 1
@@ -7,6 +8,7 @@ Set up  the letsencrypt ssl certificate. [DO Let's Encrypt Setup Guide](https://
 
 ## Step 2 
 Make sure cron is running and open the cron file to edit with `sudo crontab -e`
+
 Note that `sudo` here will open a special root cron file that is separate from a users own crontab.^
 
 ## Step 3
