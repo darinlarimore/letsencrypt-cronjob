@@ -9,7 +9,7 @@ Set up  the letsencrypt ssl certificate. [DO Let's Encrypt Setup Guide](https://
 ## Step 2 
 Make sure cron is running and open the cron file to edit with `sudo crontab -e`
 
-Note that `sudo` here will open a special root cron file that is separate from a users own crontab.^
+Note that `sudo` here will open a special root cron file that is separate from a users own crontab.
 
 ## Step 3
 Setup the commands that you would like to run and also specify an email to send the log/output everytime the command runs.
