@@ -11,7 +11,7 @@ Note that using sudo here will run commands as root.^
 ## Step 3
 Setup the commands that you would like to run and also specify an email to send the log/output everytime the command runs.
 
-`MAILTO=darinlarimore@gmail.com`
+`MAILTO=emailaddress@gmail.com`
 
 `0 1 * * * letsencrypt renew`
 
