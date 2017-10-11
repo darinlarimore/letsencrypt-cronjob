@@ -16,8 +16,8 @@ Setup the commands that you would like to run and also specify an email to send 
 
 `MAILTO=emailaddress@gmail.com`
 
-`0 1 * * * letsencrypt renew`
+`0 1 15 * * letsencrypt renew`
 
-This runs every day at 1 o'clock and emails me the output so I can confirm that it ran.
+This runs every 15 day of the month at 1 o'clock and emails me the output so I can confirm that it ran.
 
 Done!
